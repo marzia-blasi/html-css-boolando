@@ -1,3 +1,57 @@
-* {
-  background-color: blue;
+.debug {
+  * {
+    border: solid;
+  }
+
+  header {
+    background-color: aqua;
+  }
+
+  div.link {
+    flex-grow: 1;
+  }
+
+  div.logo {
+    background-color: aquamarine;
+    flex-grow: 1;
+  }
+
+  /* va assolutamente aggiustato  */
+  img {
+    height: 50px;
+    width: auto;
+  }
+
+  main {
+    background-color: antiquewhite;
+    height: 900px;
+  }
 }
+
+* {
+  background-color: #7979ba;
+}
+
+/* #region Utilities */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+/* #endregion Utilities */
+
+/* classi 
+container 
+link  
+d-flex
+*/
